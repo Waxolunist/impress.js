@@ -1,0 +1,30 @@
+.vertical-center-wrapper {
+  height: 100%;
+}
+.vertical-center-wrapper:before {
+  content: '';
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
+  margin-right: -0.25em; /* Adjusts for spacing */
+}
+.vertical-center {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.cite-wrapper {
+  margin-left: 5%;
+  margin-right: 5%;
+}
+.cite-wrapper > cite {
+  text-align: left;
+  display: inline-block;
+  font-style: italic;
+}
+.cite-wrapper > span {
+  float: right;
+  font-weight: bolder;
+}
+
+
